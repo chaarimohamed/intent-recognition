@@ -52,7 +52,7 @@ echo "✅ Python 3.11 and virtualenv installed."
 echo "Installing Python packages..."
 pip install --upgrade pip
 pip install "numpy<2.0"
-pip install torch==2.1.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install transformers
 pip install fastapi
 pip install uvicorn
